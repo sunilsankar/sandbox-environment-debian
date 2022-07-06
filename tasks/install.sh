@@ -1,4 +1,7 @@
 #!/bin/bash
+#Provision podman and python
+#Date: 5-July-2022
+#Author Sunil Sankar
 apt update -y
 apt install sshpass podman python3 python3-pip gcc git cmake make gcc vim curl -y
 
