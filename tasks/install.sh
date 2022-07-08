@@ -11,4 +11,4 @@ pip install --upgrade pip setuptools
 pip install -r /vagrant/tasks/files/requirements.txt
 
 cp /vagrant/tasks/files/motd.sh /etc/profile.d/
-\cp /vagrant/tasks/files/login.py /usr/local/lib/python3/dist-packages/molecule/command/login.py
+\cp /vagrant/tasks/files/login.py /usr/local/lib/python3.9/dist-packages/molecule/command/login.py
